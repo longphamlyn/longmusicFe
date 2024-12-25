@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Phiên bản JavaScript xuất ra
+    "module": "ESNext",                        // Sử dụng module hiện đại
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],  // Thêm thư viện cần thiết cho React
+    "allowJs": true,                           // Hỗ trợ các file .js
+    "skipLibCheck": true,                      // Bỏ qua kiểm tra kiểu trong thư viện
+    "esModuleInterop": true,                   // Hỗ trợ import/export ES6
+    "strict": true,                            // Bật tất cả kiểm tra nghiêm ngặt
+    "forceConsistentCasingInFileNames": true,  // Phân biệt chữ hoa/chữ thường trong tệp
+    "moduleResolution": "Node",               // Cách tìm module
+    "isolatedModules": true,                   // Đảm bảo từng file là một module riêng
+    "noEmit": true,                            // Không xuất tệp .js
+    "jsx": "react"                         // Cấu hình hỗ trợ JSX
+  },
+  "include": ["src/**/*", "custom.d.ts"],   
+  "exclude": ["node_modules", "build"]         // Loại trừ thư mục không cần thiết
+}

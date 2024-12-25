@@ -1,0 +1,105 @@
+/* Container chung cho form đăng ký và đăng nhập */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Tiêu đề của form */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Nhóm form input */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label cho các input */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Input cho form */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Đảm bảo width chính xác */
+  }
+  
+  /* Nút submit */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Query cho responsive */
+  @media (max-width: 768px) {
+    /* Điều chỉnh form để phù hợp với màn hình nhỏ */
+    .auth-container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .form-group input {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    button {
+      font-size: 18px;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Các điều chỉnh cho màn hình rất nhỏ (điện thoại) */
+    .auth-container {
+      max-width: 100%;
+      margin: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  

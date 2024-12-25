@@ -1,0 +1,40 @@
+.music-player-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .player-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #1db954; /* Màu nhấn */
+  }
+  
+  .time-display {
+    font-size: 0.9rem;
+  }
+  
+  input[type="range"] {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
